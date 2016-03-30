@@ -15,8 +15,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="it Example 2"
-        android:id="@+id/textView" />
+        android:text="Git Example 2"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/editText" />
 
     <EditText
         android:layout_width="wrap_content"
